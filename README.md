@@ -13,5 +13,5 @@ if you're using this with an opentx transmitter and want s.port data, connect yo
 
 ebay/china is the least expensive source for bmp280 sensors at about $1 each and 128x32 oled displays.
 
-you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adafruit ssd1306, adafruit GFX library. you'll also need to add the seeeduino xiao board definition using the board manager.
+you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adafruit ssd1306, adafruit GFX library and the frsky s.port sensor library by herman kruisman. you'll also need to add the seeeduino xiao board definition using the board manager.
 
