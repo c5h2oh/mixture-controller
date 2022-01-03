@@ -31,7 +31,6 @@ char _buffer[9];
 
 #include <SPort.h> 
 #include <Wire.h>
-#include <Adafruit_BMP280.h>
 #include <Adafruit_GFX.h>      // include Adafruit graphics library
 #include <Adafruit_SSD1306.h>  // include Adafruit SSD1306 OLED display driver
 #include <Adafruit_BMP280.h>   // include Adafruit BMP280 sensor library
