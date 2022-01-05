@@ -49,3 +49,4 @@ servo cable (2 if you plan to build the controller with s.port telemetry)
 build photos are at https://github.com/raleighcopter/mixture-controller/wiki/photos-of-the-controller-build-without-a-display
 
 
+Email me at 23077474+raleighcopter@users.noreply.github.com
