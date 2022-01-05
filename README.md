@@ -21,20 +21,29 @@ most parts are sourced from Mouser electronics. you can source the bmp280 and 12
 Description         part number       mouser link
 
 From Mouser:
-mosfet:             IRLD110PBF        https://www.mouser.com/ProductDetail/844-IRLD110PBF       
+mosfet:             IRLD110PBF        https://www.mouser.com/ProductDetail/844-IRLD110PBF
+
 2.2k resistor:      CR0805-JW-222ELF  https://www.mouser.com/ProductDetail/652-CR0805JW-222ELF  (2.2k 0805 smt)
+
 diode               1N4003-T          https://www.mouser.com/ProductDetail/583-1N4003-T 
+
 3/4" heat shrink    19267-0273        https://www.mouser.com/ProductDetail/538-19267-0273 (by the foot. i foot is enough for multiple controllers)
+
 1/16" heat shrink   HSTT06-48-QC      https://www.mouser.com/ProductDetail/644-HSTT06-48-QC (4 feet)
+
 3/8" heat shrink    HSTTV38-48-Q      https://www.mouser.com/ProductDetail/Panduit/HSTTV38-48-Q?qs=E6Ue56mBjPwBm5eY0E1gGg%3D%3D (4 feet)
+
 Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-102010328
+
 
 from ebay:
 BMP280                                https://www.ebay.com/sch/i.html?_from=R40&_nkw=bmp280+i2c&_sacat=0&LH_TitleDesc=0&_sop=15
+
 128x32 OLED                           https://www.ebay.com/sch/i.html?_from=R40&_nkw=128x32+oled+i2c&_sacat=0&LH_TitleDesc=0&_sop=15  (optional)
 
 Misc Parts:
 26 gage wire, stranded, various colors, minimum 4 colors but 8 different colors is easiest
+
 servo cable (2 if you plan to build the controller with s.port telemetry)
 
 
