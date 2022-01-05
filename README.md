@@ -46,6 +46,6 @@ Misc Parts:
 
 servo cable (2 if you plan to build the controller with s.port telemetry)
 
-
+build photos are at https://github.com/raleighcopter/mixture-controller/wiki
 
 
