@@ -1,4 +1,4 @@
-//this code is written for the seeeduino xiao by david taylor
+//this code is written for the seeeduino xiao by david taylor and released under the GNU general public license V3.0
 
 //pin d3 controls the solenoid
 //pin d2 is the rc channel input
