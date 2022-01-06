@@ -269,6 +269,6 @@ sportData getSensorData1(CustomSPortSensor* intake_pressure) {
 sportData getSensorData2(CustomSPortSensor* compensation_ratio) {
   sportData data; 
   data.applicationId = 0x5902;            //Set the sensor id for the current data poll. Set to 0 to discard the data, skip to the next sensor
-  data.value = int(1000 * adjusted_pulse/(usable_pulse * 6.145));                      //Set the sensor value 
+  data.value = int(1000 * (reference_temp/(bmp.readTemperature()+273)*(bmp.readPressure()/reference_pressure)));                      //Set the sensor value 
   return data;
 }
