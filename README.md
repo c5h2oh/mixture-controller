@@ -37,7 +37,7 @@ Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-1
 
 
 from ebay:
-BMP280                                https://www.ebay.com/sch/i.html?_from=R40&_nkw=bmp280+i2c&_sacat=0&LH_TitleDesc=0&_sop=15
+BMP280                                https://www.ebay.com/sch/i.html?_from=R40&_nkw=bmp280&_sacat=0&LH_TitleDesc=0&_sop=15
 
 128x32 OLED                           https://www.ebay.com/sch/i.html?_from=R40&_nkw=128x32+oled+i2c&_sacat=0&LH_TitleDesc=0&_sop=15  (optional)
 
