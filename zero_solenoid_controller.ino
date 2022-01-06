@@ -52,7 +52,7 @@ void setup() {
   display.setTextColor(WHITE, BLACK);  // set text color to white and black background
 
 //uncomment the next line to debug  
-SerialUSB.begin(115200);
+//SerialUSB.begin(115200);
 
   pinMode(rc_functionPin, INPUT);
   attachInterrupt(rc_functionPin, RCpinread, CHANGE);
