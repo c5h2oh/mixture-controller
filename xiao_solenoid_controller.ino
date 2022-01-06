@@ -243,11 +243,12 @@ void RCpinread() {
   pulse_old = channel_pulse;
   channel_pulse = pulse_now - pulse_start_time;
   pulse_start_time = pulse_now;
-  if(channel_pulse < 1000) {
+  if(channel_pulse < 988) {
     channel_pulse = pulse_old; //throw out low values
-  }else if(channel_pulse > 2000) {
+  }else if(channel_pulse > 2012) {
     channel_pulse = pulse_old; //throw out high values
   }
+  channel_pulse = constrain (channel_pulse, 1000, 2000);
   channel = channel_pulse;
   usable_pulse = channel_pulse - 1000;
 }
