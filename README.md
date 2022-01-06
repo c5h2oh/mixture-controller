@@ -1,7 +1,7 @@
 # mixture-controller
 RC engine mixture controller.
 
-![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/11.jpg)
+![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/cover.jpg)
 
 I built a controller using a seeduino Xiao an IRLD110pbf MOSFET, a 2.2k resistor, a diode, a bmp280, and optionally, a 128x32 oled display. This one has no boost converter and I've tested it on 4s NiMH and 2s LiFePo. Power comes in on the power and ground pads on the back of the Xiao wire a 1n4003 diode or something similar in the red wire before feeding power to the power pad or the Vcc pin. The solenoid, bmp280, and optional display grab 3.3 volts from the Xiao's 3.3v pin. The MOSFET is wired to D3 and the RC channel is wired to D2. There's only 1 ground pad on the back and one ground pin so I doubled up on the pad on the back because I need 3 grounds.
 
