@@ -29,11 +29,11 @@ mosfet:             IRLD110PBF        https://www.mouser.com/ProductDetail/844-I
 
 diode               1N4003-T          https://www.mouser.com/ProductDetail/583-1N4003-T 
 
-3/4" heat shrink    19267-0273        https://www.mouser.com/ProductDetail/538-19267-0273 (by the foot. i foot is enough for multiple controllers)
+3/4" heat shrink    19267-0273        https://www.mouser.com/ProductDetail/538-19267-0273 (by the foot. 1 foot is enough for multiple controllers. They also make this in red if you're feeling like being different.)
 
-1/16" heat shrink   HSTT06-48-QC      https://www.mouser.com/ProductDetail/644-HSTT06-48-QC (4 feet)
+1/16" heat shrink   HSTT06-48-QC      https://www.mouser.com/ProductDetail/644-HSTT06-48-QC (1 piece is 4 feet)
 
-3/8" heat shrink    HSTTV38-48-Q      https://www.mouser.com/ProductDetail/Panduit/HSTTV38-48-Q?qs=E6Ue56mBjPwBm5eY0E1gGg%3D%3D (4 feet)
+3/8" heat shrink    HSTTV38-48-Q      https://www.mouser.com/ProductDetail/Panduit/HSTTV38-48-Q?qs=E6Ue56mBjPwBm5eY0E1gGg%3D%3D (1 piece is 4 feet)
 
 Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-102010328
 
