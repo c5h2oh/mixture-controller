@@ -181,7 +181,7 @@ void loop() {
 //print correction
   
   corr =  1000 * (reference_temp/(temp+273)*(pressure/reference_pressure)); 
-  if(corr>1000){
+  if(corr>=1000){
     sprintf(_buffer, "%03u.%01u", (int)(corr/10), (int)((uint32_t)corr % 10));
     display.setCursor(60,0);
     }
