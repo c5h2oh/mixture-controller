@@ -35,6 +35,8 @@ diode               1N4003-T          https://www.mouser.com/ProductDetail/583-1
 
 3/8" heat shrink    HSTTV38-48-Q      https://www.mouser.com/ProductDetail/Panduit/HSTTV38-48-Q?qs=E6Ue56mBjPwBm5eY0E1gGg%3D%3D (1 piece is 4 feet)
 
+1/8" heat shrink    FP301-18-48"      https://www.mouser.com/ProductDetail/5174-1181 (1 piece is 4 feet)
+
 Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-102010328
 
 
