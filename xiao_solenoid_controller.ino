@@ -132,6 +132,7 @@ void loop() {
 //adjust for temp and pressure  
     adjusted_pulse = (usable_pulse * (reference_temp/(bmp.readTemperature()+273)*(bmp.readPressure()/reference_pressure))) * 6.145; 
     solenoid_pulse = constrain(adjusted_pulse, 0, 6145);
+    solenoid_pulse = map(solenoid_pulse, 0, 6145, 6145, 0);
 
 // load pulse value into timer register
     REG_TCC1_CC1 = (solenoid_pulse); 
