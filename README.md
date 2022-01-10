@@ -41,13 +41,15 @@ diode               1N4003-T          https://www.mouser.com/ProductDetail/583-1
 
 1/8" heat shrink    FP301-18-48"      https://www.mouser.com/ProductDetail/5174-1181 (1 piece is 4 feet)
 
-Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-102010328
+Seeeduino Xiao      102010328         https://www.mouser.com/ProductDetail/713-102010328 (if you're building the xiao controller)
 
 
 from ebay:
 BMP280                                https://www.ebay.com/sch/i.html?_from=R40&_nkw=bmp280&_sacat=0&LH_TitleDesc=0&_sop=15
 
 128x32 OLED                           https://www.ebay.com/sch/i.html?_from=R40&_nkw=128x32+oled+i2c&_sacat=0&LH_TitleDesc=0&_sop=15  (optional)
+
+Arduino zero                          https://www.ebay.com/sch/i.html?_from=R40&_nkw=USB+SAMD21+M0+Mini+ARM+Cortex+M0+32-Bit+extension+WeMos+D1+For+Arduino+Zero+UNO&_sacat=0&_sop=15 (if you're building an arduino zero controller)
 
 Misc Parts:
 26 gage wire, stranded, various colors, minimum 4 colors but 8 different colors is easiest
