@@ -3,6 +3,8 @@ RC engine mixture controller.
 
 ![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/cover.jpg)
 
+This controller works with a stiho solenoid part numbeer 0000 120 5111 and a custom solenoid housing to modulate fuel flow to a conventional methanol carburator. 
+
 I built a controller using a seeduino Xiao an IRLD110pbf MOSFET, a 2.2k resistor, a diode, a bmp280, and optionally, a 128x32 oled display. This one has no boost converter and I've tested it on 4s NiMH and 2s LiFePo. Power comes in on the power and ground pads on the back of the Xiao. 
 
 If you're powering your controller with a 2s LiFePo battery, wire a 1n4003 diode or something similar in the red wire before feeding power to the power pad or the Vcc pin. if you're powering your controller with a 4S NiMh, omit the diode.
@@ -24,4 +26,4 @@ you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adaf
 
 build photos as well as parts lists are on the wiki at https://github.com/raleighcopter/mixture-controller/wiki
 
-Contact me at d.a.taylor.pe@gmail.com
+Contact me by posting a message in the build thread at https://www.rcgroups.com/forums/showthread.php?3474313-seriously-considering-converting-an-os-ft120-II-to-gas-looking-for-recommendations 
