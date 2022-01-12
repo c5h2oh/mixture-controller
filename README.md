@@ -3,7 +3,7 @@ RC engine mixture controller.
 
 ![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/cover.jpg)
 
-This controller works with a stihl solenoid part numbeer 0000 120 5111 and a custom solenoid housing (https://github.com/raleighcopter/mixture-controller/blob/main/photos/solenoid%20housing.pdf to modulate fuel flow to a conventional methanol carburator. 
+This controller works with a stihl solenoid part numbeer 0000 120 5111 and a custom solenoid housing (https://github.com/raleighcopter/mixture-controller/blob/main/photos/solenoid%20housing.pdf) to modulate fuel flow to a conventional methanol carburator. 
 
 I built a controller using a seeduino Xiao an IRLD110pbf MOSFET, a 2.2k resistor, a diode, a bmp280, and optionally, a 128x32 oled display. This one has no boost converter and I've tested it on 4s NiMH and 2s LiFePo. Power comes in on the power and ground pads on the back of the Xiao. 
 
