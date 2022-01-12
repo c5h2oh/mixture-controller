@@ -24,6 +24,6 @@ ebay/china is the least expensive source for bmp280 sensors at about $1 each and
 you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adafruit ssd1306, adafruit GFX library and the frsky s.port sensor library by herman kruisman. you'll also need to add the seeeduino xiao board definition using the board manager.
 
 
-build photos as well as parts lists are on the wiki at https://github.com/raleighcopter/mixture-controller/wiki
+build photos as well as parts lists and assembly instructions are on the wiki at https://github.com/raleighcopter/mixture-controller/wiki
 
 Contact me by posting a message in the build thread at https://www.rcgroups.com/forums/showthread.php?3474313-seriously-considering-converting-an-os-ft120-II-to-gas-looking-for-recommendations 
