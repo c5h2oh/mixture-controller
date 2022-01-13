@@ -47,12 +47,15 @@ SPortHub hub(0x12, 0);                    //Hardware ID 0x12, Software serial pi
 CustomSPortSensor intake_temperature(getSensorData);  //Sensor with a callback function to get the data
 CustomSPortSensor intake_pressure(getSensorData1);  //Sensor with a callback function to get the data
 CustomSPortSensor compensation_ratio(getSensorData2);  //Sensor with a callback function to get the data
+CustomSPortSensor solenoid_command(getSensorData3);  //Sensor with a callback function to get the data
 
 void setup() {
 
   hub.registerSensor(intake_temperature);          //Add sensor to the hub
   hub.registerSensor(intake_pressure);             //Add sensor to the hub
   hub.registerSensor(compensation_ratio);          //Add sensor to the hub
+  hub.registerSensor(solenoid_command);            //Add sensor to the hub
+
 
   hub.begin();                            //Start listening for s.port data
 
@@ -272,5 +275,12 @@ sportData getSensorData2(CustomSPortSensor* compensation_ratio) {
   sportData data; 
   data.applicationId = 0x5902;            //Set the sensor id for the current data poll. Set to 0 to discard the data, skip to the next sensor
   data.value = int(1000 * (reference_temp/(bmp.readTemperature()+273)*(bmp.readPressure()/reference_pressure)));                      //Set the sensor value 
+  return data;
+}
+
+sportData getSensorData3(CustomSPortSensor* solenoid_command) {
+  sportData data; 
+  data.applicationId = 0x5903;            //Set the sensor id for the current data poll. Set to 0 to discard the data, skip to the next sensor
+  data.value =  solenoid_pulse;                      //Set the sensor value 
   return data;
 }
