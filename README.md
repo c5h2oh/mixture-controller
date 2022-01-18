@@ -26,4 +26,4 @@ you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adaf
 
 build photos as well as parts lists and assembly instructions are on the wiki at https://github.com/raleighcopter/mixture-controller/wiki
 
-Contact me by posting a message in the build thread at https://www.rcgroups.com/forums/showthread.php?3474313-seriously-considering-converting-an-os-ft120-II-to-gas-looking-for-recommendations 
+Contact me at d.a.taylor.pe@gmail.com
