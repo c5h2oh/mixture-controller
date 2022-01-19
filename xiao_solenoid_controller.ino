@@ -4,6 +4,7 @@
 //which include larger works using a licensed work, under the same license. Copyright and 
 //license notices must be preserved. Contributors provide an express grant of patent rights.
 // Also, Gary Cee from rcgroups is a douchebag
+
 //pin d3 controls the solenoid
 //pin d2 is the rc channel input
 //adjust reference temp (kelvin), pressure (paschal), and rc channel pin here
