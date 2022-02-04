@@ -33,6 +33,7 @@ volatile unsigned long adjusted_pulse = 0L;
 volatile unsigned long solenoid_pulse = 0L;
 volatile unsigned long usable_pulse = 0L;
 int channel;
+int bmp_error = 0;
 char _buffer[9];
 
 #include <Wire.h>
@@ -59,8 +60,8 @@ void setup() {
   attachInterrupt(rc_functionPin, RCpinread, CHANGE);
 
   if (!bmp.begin(BMP280_ADDR, BMP280_CHIPID)) {
-  SerialUSB.println(F("Could not find a valid BMP280 sensor, check wiring or try a different address!"));
-    while (1) delay(10);
+//  SerialUSB.println(F("Could not find a valid BMP280 sensor, check wiring or try a different address!"));
+    bmp_error = 1;
   }
   
   bmp.setSampling(Adafruit_BMP280::MODE_NORMAL,     /* Operating Mode. */
@@ -115,6 +116,13 @@ void setup() {
 //############################################################################
 
 void loop() {
+
+while(bmp_error == 1) {
+  REG_TCC1_CC1 = 3072;
+  delay(500);
+  REG_TCC1_CC1 = 0;
+  delay(500);  
+}
 
 //adjust for temp and pressure  
     adjusted_pulse = (usable_pulse * (reference_temp/(bmp.readTemperature()+273)*(bmp.readPressure()/reference_pressure))) * 6.145; 
