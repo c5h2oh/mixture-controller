@@ -134,6 +134,12 @@ void setup() {
 void loop() {
 
 while(bmp_error == 1) {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.setTextSize(2);
+  display.println("  SENSOR");
+  display.println("  ERROR");
+  display.display();  
   REG_TCC1_CC1 = 3072;
   delay(500);
   REG_TCC1_CC1 = 0;
