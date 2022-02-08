@@ -23,7 +23,7 @@ If you're building this with an oled display, wire the display to the same 4 poi
 
 if you're using this with an opentx transmitter and want s.port data, connect your s.port to pin 0 of the Xiao.
 
-ebay/china is the least expensive source for bmp280 sensors at about $1 each and 128x32 oled displays at about $2.50..
+ebay/china is the least expensive source for bmp280 sensors at about $1 each and 128x32 oled displays at about $2.50. Be aware that we've seen fairly high failure rates on the China sourced bmp280 boards. As a result, the solenoid will signal a failed sensor at startup by buzzing for half a second and then remaining quiet for another half second and repeating indefinitely..
 
 you'll need to install a few libraries in the arduino IDE: adafruit bmp280, adafruit ssd1306, adafruit GFX library and the frsky s.port sensor library by herman kruisman. you'll also need to add the seeeduino xiao board definition using the board manager.
 
