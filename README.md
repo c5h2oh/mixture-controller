@@ -1,7 +1,7 @@
 # mixture-controller
 RC engine mixture controller.
 
-![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/cover.jpg)
+![](https://github.com/raleighcopter/mixture-controller/blob/main/photos/controller.jpg)
 
 This controller works with a stihl solenoid part number 0000 120 5111 and a custom solenoid housing (https://github.com/raleighcopter/mixture-controller/blob/main/photos/solenoid%20housing.pdf) to modulate gasoline flow to a conventional methanol carburator. This allows us to generate a custom fuel mixture curve on our transmitter that is slaved to the throttle channel output. The result is that we can vary the fuel:air mixture across the entire throttle range to make the engine run near stoichiometric fuel:air ratio at idle, full throttle, and every point in between. Without the solenoid and controller, our methanol engines run extremely rich in the middle. 
 
