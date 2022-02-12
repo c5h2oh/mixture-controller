@@ -5,11 +5,11 @@ RC engine mixture controller.
 
 This controller works with a stihl solenoid part number 0000 120 5111 and a custom solenoid housing (https://github.com/raleighcopter/mixture-controller/blob/main/photos/solenoid%20housing.pdf) to modulate gasoline flow to a conventional methanol carburator. This allows us to generate a custom fuel mixture curve on our transmitter that is slaved to the throttle channel output. The result is that we can vary the fuel:air mixture across the entire throttle range to make the engine run near stoichiometric fuel:air ratio at idle, full throttle, and every point in between. Without the solenoid and controller, our methanol engines run extremely rich in the middle. 
 
-The controller is my design and takes an RC channel and maps a 1000 uS - 2000 uS channel pulse to a PWM solenoid pulse. Additionally, the controller measures atmospheric pressure and temperature and adjusts the fuel amount to maintain the ideal mixture regardless of the weather or altitude (which constantly changes as we fly our models). We have engines that were tuned at 85 degrees F that run just as well at 35 degrees F without touching the needles. 
+The controller takes an RC channel and maps a 1000 uS - 2000 uS channel pulse to a PWM solenoid pulse. Additionally, the controller measures atmospheric pressure and temperature and adjusts the fuel amount to maintain the ideal mixture regardless of the weather or altitude (which constantly changes as we fly our models). We have engines that were tuned at 85 degrees F that run just as well at 35 degrees F without touching the needles. 
 
 I currently have my OS FT120-ii and Saito FA72 converted and Bert (the man behind the idea who designed the solenoid housing) has engines ranging from an asp 0.30 four stroke up to an ASP 1.6 boxer and a larger radial converted and running well. This conversion has been used on 2 stroke engines, 4 stroke engines, single  and twin cylinder engines and radial multi-cylinder engines.
 
-I built a controller using a seeduino Xiao an IRLD110pbf MOSFET, a 2.2k resistor, a diode, a bmp280, and optionally, a 128x32 oled display. This one has no boost converter and I've tested it on 4s NiMH and 2s LiFePo. Power comes in on the power and ground pads on the back of the Xiao. 
+I built the controller using a seeduino Xiao an IRLD110pbf MOSFET, a 2.2k resistor, a diode, a bmp280, and optionally, a 128x32 oled display and I've tested it on 4s NiMH and 2s LiFePo. Power comes in on the power and ground pads on the back of the Xiao. 
 
 If you're powering your controller with a 2s LiFePo battery, wire a 1n4003 diode or something similar in the red wire before feeding power to the power pad or the Vcc pin. if you're powering your controller with a 4S NiMh, omit the diode.
 
